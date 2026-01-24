@@ -38,5 +38,16 @@ class Signup:
             json.dump(self.gen_json(), file)
             file.write('\n')
 
-user_1 = Signup('Sagar Moktan','sagarmoktna@gmail.com','moktan@3')
+def home_screen():
+    print('----------Welcome---------\n----------BusTicketingSys----------\n 1. Login \n 2. Signup \n 3. Exit')
+    user_inp = int(input("Choice: "))
+    match user_inp:
+        case 1:
+            pass
+        case 2:
+            pass
+        case _:
+            pass
 
+def create_user():
+    pass
